@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ξενοδοχείο Άνεσις</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <img src="reception900.jpg" width="900" height="233">
+        </header>
+        <div id="surroundingImage">
+            <div id="content">
+                <h1>
+                    Hotel Anesis
+                </h1>
+                <form action="addRooms" method="get">
+                    <table>
+                        <tr>
+                            <td class="fieldLabel"> 
+                                Δωμάτιο 
+                            </td>
+                            <td>					
+                                <select name="room" required>
+                                    <option value="k1">K1 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="k2">K2 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="k3">K3 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="k4">K4 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="k5">K5 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="a1">A1 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="a2">A2 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="a3">A3 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="a4">A4 &nbsp; &nbsp; &nbsp;</option>
+                                    <option value="a5">A5 &nbsp; &nbsp; &nbsp;</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fieldLabel">
+                                Άφιξη
+                            </td>
+                            <td>
+                                <input name="arrivalDate" type="date" placeholder="χχχχ-μμ-ηη" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fieldLabel">
+                                Αναχώρηση
+                            </td>
+                            <td>
+                                <input name="departureDate" type="date" placeholder="χχχχ-μμ-ηη" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fieldLabel">
+                                Πλήθος ατόμων
+                            </td>
+                            <td>
+                                <input name="numOfPeople" type="number" min="1" max="15" step="1" value="1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fieldLabel">
+                                Όνομα επικοινωνίας
+                            </td>
+                            <td>
+                                <input name="contactName" type="text" placeholder="Τουλάχιστον 3 γράμματα" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fieldLabel">
+                                Τηλέφωνο
+                            </td>
+                            <td>
+                                <input name="phoneNumber" type="tel" placeholder="10 ψηφία" required>
+                            </td>
+                        </tr>
+                        <tr><td><br></td><td><br></td></tr>
+                        <tr>
+                            <td id="buttonsRow" colspan="2">
+                                <input type="submit" value="Αποθήκευση"> &nbsp; &nbsp;
+                                <input type="reset"  value="Καθαρισμός"> &nbsp; &nbsp;
+                                <input type="button" onClick="location.href = 'index.html'" value="Επιστροφή">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

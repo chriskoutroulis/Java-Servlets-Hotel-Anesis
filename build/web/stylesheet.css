@@ -1,0 +1,119 @@
+body {
+    background-color: #b5a789;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;    
+
+}
+
+h1 {
+    font-size:        230%;
+    color:            #954b4b;  
+}
+
+
+#content {
+    text-align:		center;    
+    background-color:	#efe5d0;
+    border:		3px groove #e7e7e7;    
+    box-shadow:         0px 0px 30px #f2f2f2;    
+    margin:		100px;
+}
+
+table {	
+    margin-left:	auto;
+    margin-right:	auto;
+}
+
+td {
+    text-align:		left;
+}
+
+.fieldLabel {
+    padding-right:      50px;
+}
+
+#buttonsRow {
+    text-align:		center;
+    padding-bottom:	10px;
+}
+
+
+table#resultTable {
+    border-collapse: collapse;
+    border-spacing:  20px;
+    margin-bottom:   10px;    
+    width:           850px;
+
+}
+
+.resultData {    
+    border:         2px solid black;  
+    min-width:      28px;
+    padding:        5px;
+    vertical-align: center;
+}
+
+tr.resultRow:nth-child(odd) {
+    background-color:  #ffcc33;
+}
+
+th {
+    background-color: #ff9900;
+}
+
+a {
+    text-decoration:    none;
+    border:             3px #c8c8c8 outset;
+    padding:            5px 15px 5px 15px;
+    background-color:   #954b4b;
+    color:              #ffffff;
+    font-size:          120%;
+}
+
+a:hover {
+    border:             3px #c8c8c8 inset;
+}
+
+header {
+    border-bottom:      3px #c8c8c8 groove;  
+    text-align:         center;
+    background-color:   #675c47;
+    /*padding-bottom:     3px;*/    
+}
+
+img {   /* box-shadow: 	7px 7px 5px #222222; */
+    box-shadow: 	0px 0px 30px #f2f2f2;
+
+}
+
+#surroundingImage {
+    border:		1px solid #b5a789;
+    margin-top:			1%;
+    margin-left:        auto;
+    margin-right:       auto;
+    width:             	700px;		
+    background-image:   url(brown_vine_right.png), url(brown_vine_left.png), url(brown_vine_top_left.png), url(brown_vine_top_right.png);
+    background-position:  100% 100%, 0% 100%, 0% 0%, 100% 0%;
+    background-repeat:    no-repeat, no-repeat, no-repeat, no-repeat;
+    background-attachment: scroll, scroll, scroll, scroll;
+
+
+}
+
+#surroundingImageTable {
+
+    border:		1px solid #b5a789;
+    width:              1100px;
+    margin-top:			1%;
+    margin-left:        auto;
+    margin-right:       auto;
+    background-image:   url(brown_vine_right.png), url(brown_vine_left.png), url(brown_vine_top_left.png), url(brown_vine_top_right.png);
+    background-position:  100% 100%, 0% 100%, 0% 0%, 100% 0%;
+    background-repeat:    no-repeat, no-repeat, no-repeat, no-repeat;
+    background-attachment: scroll, scroll, scroll, scroll;
+
+}
+
+
+
